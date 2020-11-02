@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -12,7 +12,7 @@ public class exit : MonoBehaviour
    	  {
               Debug.Log("touch!");
               GetComponent<AudioSource>().Play(); 
-              await Task.Delay (1300);
+              await Task.Delay (1200);
               SceneManager.LoadScene("TopDownDemo2");
 		  }
     }
